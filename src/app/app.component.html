@@ -3,4 +3,10 @@
   <header>
     <app-home-header></app-home-header>
   </header>
+  <body>
+    <div class="ontest">
+      <app-circle-text 
+      *ngFor = "let i of cirtxt" [cirtitle] = "i.title" [circontent] = "i.content" [cirlien] = "i.lien"></app-circle-text>
+    </div>
+  </body>
 </html>

@@ -7,16 +7,26 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   
-  appareil = "test";
-
-  tableau = [
+  cirtxt = [
     {
-      title : 'Bonjour',
-      content : 'Hello World'
+      title : 'Collaboratif',
+      content : 'on explique le concept du site + lien vers le page présentation',
+      lien: '#'
     },
     {
-      title : 'Bonsoir',
-      content : 'Goodbye World' 
+      title : 'A vous de jouer',
+      content : 'on explique que les utilisateurs peuvent reporter un piano + lien vers soumettre un piano',
+      lien: '#'
+    },
+    {
+      title : 'Bénévole',
+      content : 'on parle de nous xD + lien vers qui sommes nous',
+      lien: '#'
+    },
+    {
+      title : 'Carte',
+      content : 'on explique le principe de la carte + lien vers la carte',
+      lien: '#'
     }
   ];
 

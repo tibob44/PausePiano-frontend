@@ -5,11 +5,13 @@ import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeHeaderComponent } from './home-header/home-header.component';
+import { CircleTextComponent } from './circle-text/circle-text.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeHeaderComponent
+    HomeHeaderComponent,
+    CircleTextComponent
   ],
   imports: [
     BrowserModule,

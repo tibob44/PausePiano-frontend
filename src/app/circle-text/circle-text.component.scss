@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+
+.cirtxt{
+    position: relative;
+}
+
+.cirtxt-rect{
+    position: absolute;
+    width: 49%;
+    min-height: 100%;
+    padding-bottom: 1%;
+    height: auto;
+    border-radius: 200px;
+    background: rgba(255, 255, 255, 0.7);
+}
+
+.cirtxt-txt{
+    width: 70%;
+ //   margin-top: 2em;
+  //  margin-left: 10em;
+    top: 2em;
+    left: 15em;
+    text-align: justify;
+    height: auto;
+}
+
+.cirtxt-circ{
+    text-align: center;
+    background-color: white;
+    color: black;
+    width: 15em;
+    height: 15em;
+    border-radius: 7.5em;
+    left: -1%;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.78);
+}
+
+.cirtxt-circ p{
+    font-size: 2em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cirtxt-btn{
+    position: absolute;
+    bottom: 0.5em;
+    margin-left: 32em;
+    background: #5352ED;
+    border-radius: 45px;
+    padding: 1%;
+    color: white;
+    border: none;
+    font-size: 1.5em;
+}

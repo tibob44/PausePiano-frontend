@@ -13,3 +13,8 @@ export class HomeHeaderComponent implements OnInit {
   }
 
 }
+let scrollTop: number = document.body.scrollTop;
+let windowHeight: number = window.innerHeight;
+let scrollHeight: number = document.body.scrollHeight;
+ 
+let scrollPercent: number = (scrollTop / (scrollHeight - windowHeight)) * 100;
